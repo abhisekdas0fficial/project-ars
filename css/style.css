@@ -167,7 +167,7 @@ header section form div.submit {
           transform: translate(-50%, 50%);
 }
 
-header section form input#search {
+header section form #search {
   display: block;
   padding: 10px 30px;
   font: 600 16px 'Montserrat';
@@ -187,7 +187,7 @@ header section form input#search {
   transition: border-color 0.15s ease-in-out, box-shadow 0.1s ease-in-out, -webkit-box-shadow 0.1s ease-in-out;
 }
 
-header section form input#search:focus {
+header section form #search:focus {
   border: 2px #0278ff solid;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
           box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
