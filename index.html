@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlyBook</title>
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/modal.min.css">
 </head>
 <body>
     <nav>
         <a href="#">Fly<span class="bold">Book</span></a>
         <ul>
-            <li><a href="#">Account</a></li>
+            <li><a href="#modal" id="account">Account</a></li>
         </ul>
     </nav>
 
@@ -68,11 +69,17 @@
     </header>
     <main>
         <section></section>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <h2>Hello World!</h2>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Copyright&copy;2020 FlyBook</p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+    <script src="js/modal.js"></script>
 </body>
 </html>

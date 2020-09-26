@@ -1,0 +1,22 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  overflow: auto;
+  z-index: 99;
+}
+
+.modal-content {
+  width: 600px;
+  margin: auto;
+  padding: 60px;
+  background-color: #fafafa;
+}
+/*# sourceMappingURL=modal.css.map */
