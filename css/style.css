@@ -114,7 +114,7 @@ header section form select {
   font-size: 16px;
   background-color: #ddd;
   border: 2px #ddd solid;
-  border-radius: 10px;
+  border-radius: 30px;
   outline: none;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;

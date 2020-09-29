@@ -71,7 +71,44 @@
         <section></section>
         <div id="modal" class="modal">
             <div class="modal-content">
-                <h2>Hello World!</h2>
+                <div class="modal-header"></div>
+                <div class="modal-body">
+                    <div class="ss-wrapper">
+                        <button class="btn-signup">Signup</button>
+                        <p><span>or</span></p>
+                        <button class="btn-signin">Signin</button>
+                    </div>
+
+                    <!-- Signup form -->
+                    <form action="" method="post" id="modal-signup">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password2">Confirm Password</label>
+                            <input type="password" name="password2" id="password2" required>
+                        </div>
+                        <button type="submit">Signup</button>
+                    </form>
+
+                    <!-- Signin form -->
+                    <form action="" method="post" id="modal-signin">
+                        <div class="form-group">
+                            <label for="signin-email">Email</label>
+                            <input type="email" name="email" id="signin-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signin-password">Password</label>
+                            <input type="password" name="password" id="signin-password" required>
+                        </div>
+                        <button type="submit">Signin</button>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
